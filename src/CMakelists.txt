@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(first_laba)
+
+
+set(SOURCE_EXE main.c)
+
+add_executable(run_file ${SOURCE_EXE})
+add_executable(child child.c)
